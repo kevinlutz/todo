@@ -11,13 +11,13 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :description, style: "display: block" %>
-    <%= form.text_field :description %>
-  </div>
-    </br>
-  <div>
-    <%= form.submit "Create Todo" %>
-  </div>
-  </br>
+<span>
+ 
+    <%= form.text_field :description, placeholder: "Description" %>
+  
+    <%= form.submit "Add Todo" %>
+  
+  <br/>
+  <br/>
+</span>
 <% end %>
